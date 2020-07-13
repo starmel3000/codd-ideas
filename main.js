@@ -21,7 +21,7 @@ trackUserLocation: true})
 
 
 map.on('load', function() {
-map.loadImage('https://raw.githubusercontent.com/starmel3000/codd-ideas/master/126-railway_station.png',
+map.loadImage('https://raw.githubusercontent.com/starmel3000/codd-ideas/master/png/tick.png',
 function(error, image) {
   if (error) throw error;
   map.addImage('train', image);
@@ -35,7 +35,7 @@ map.addLayer({
 'source': 'rw_stations',
 'layout': {
 'icon-image': 'train',
-'icon-size': 0.5
+'icon-size': 1
 }});
 });
 });
